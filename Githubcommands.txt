@@ -1,0 +1,11 @@
+git branch
+git checkout -b branchname
+git status
+git init
+git add filename
+git commit -m "message"
+git remote add origin pathofgithub
+git pull origin main --rebase
+#The --rebase option in git pull helps to apply your local commits on top of the fetched commits, resulting in a cleaner, linear commit history.
+git push -u origin main
+# allowing you to use git push and git pull without specifying the remote and branch name in future commands.
